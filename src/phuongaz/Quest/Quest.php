@@ -36,7 +36,7 @@ Class Quest extends PluginBase {
 
 
 	public function onCommand(CommandSender $sender, Command $command, string $label, array $args) : bool {
-		if(strtolower($command->getName()) == "arquest"){
+		if(strtolower($command->getName()) == "level"){
 			if($sender instanceof Player){
 				$this->sendForm($sender);
 			}else $sender->sendMessage("Use command in game!");
@@ -66,4 +66,3 @@ Class Quest extends PluginBase {
 		$form->sendToPlayer($player);
 	}
 }
-		
