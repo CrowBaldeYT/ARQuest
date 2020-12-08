@@ -1,9 +1,9 @@
-name: ARQuest
+name: LevelSystem
 main: phuongaz\Quest\Quest
 version: 0.2
-author: phuongaz
+author: CrowBaldeYT
 api: 3.9.0
 load: POSTWORLD
 commands:
-  arquest:
-    description: Quest
+  level:
+    description: §7Level Command
